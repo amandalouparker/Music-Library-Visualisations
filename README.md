@@ -15,14 +15,14 @@ This is a screenshot of the dynamic network graph generated from my library
 * Bubble chart (non-hierarchical) of music genre, volume (size) by song count
 * Artist network graph - relationship by genre
 
-** WIP **
-* Year of release, timetine (date range of songs and albums, filter by artist or genre)
+* WIP *
+* Year of release, timeline (date range of songs and albums, filter by artist or genre)
 * Play counts, filter by genre, artist (from spotify or itunes data)
 
 #### How to generate your own music library network graph
 1. Install Anaconda (Jupyter notebooks)
 2. Open Jupyter notebooks
-3. Install all python libraries used, e.g. type !pip intall (library name) and run for each library 
+3. Install all python libraries used, e.g. type !pip install (library name) and run for each library 
 4. Run 'Network Graph 1 - get data' notebook to get your own data. Ensure to replace the library pathname, and modify the hobby artist filter (or comment out)
 5. Once the ArtistsGenre.csv file is generated run the 'Network Graph 2 - Format data as nodes edges and graph' notebook.
 6. Your network graph will be loaded into a new browser tab, and aslo saved as a html file to open and browse later
@@ -30,10 +30,10 @@ This is a screenshot of the dynamic network graph generated from my library
 #### Python libraries used in the network graph
 * pandas
 * numpy
-* musicbrainzngs (API)
+* musicbrainzngs
 * os
 * tinytag
-* pyvis.network (import Network)
+* pyvis
     
 
 
